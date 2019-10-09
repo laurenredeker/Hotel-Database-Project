@@ -4,3 +4,4 @@ Sample of a University project I and other peers created; built a database syste
 <br>
 * customer_entry.html allows you to add a customer to the database
 * customer_table.py is used for the CGI program
+* mysql.txt is sample of database we created
