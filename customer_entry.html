@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html>
+<style>
+
+body {
+  background-color: #DCDCDC;
+}
+
+.container {
+  margin: auto;
+  height: 100vh;
+  background-color: #DCDCDC;
+  padding: 10px;
+  max-width: 1000px;
+  border-radius: 10px;
+}
+
+#box_size {
+    width: 50em;  height: 2em;
+}
+
+#submit_size {
+    width: 10em;  height: 4em;
+}
+
+</style>
+
+<body>
+<div class="container">
+
+  <h1><font size="6">Customer Page</font></h1>
+  <span><hr style="border: 2.5px solid red;" />
+ <br>
+
+<form name="pyform" method="POST" action="http://localhost/cgi-bin/customer_table.py">
+  First Name: <input type="text" id="box_size" name="first_name" /><br><br>
+  Last Name: <input type="text" id="box_size" name="last_name" /><br><br>
+  Customer ID: <input type="text" id="box_size" name="cid" /><br><br>
+  Customer Type: <input type="text" id="box_size" name="customer_type" /><br><br>
+  Date of Birth: <input type="text" id="box_size" name="DOB" /><br><br>
+  Rewards: <input type="text" id="box_size" name="rewards" /><br><br>
+  <input type="submit" id="submit_size" name="submit" value="Submit" />
+</form>
+
+</body>
+</html>
