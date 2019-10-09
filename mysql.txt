@@ -1,0 +1,24 @@
+// Including a sample file of database we created (just customer table)
+
+CREATE DATABASE boutique_hotel;
+
+CREATE TABLE Customers (
+	-> first_name varchar(255),
+  -> last_name varchar(255),
+	-> cid int,
+	-> customer_type varchar(255),
+	-> DOB date,
+  -> rewards int, 
+	-> PRIMARY KEY (cid));
+
+INSERT INTO Customers (first_name,last_name,cid,customer_type,DOB,rewards) VALUES
+->(("Elizabeth","Olsen",127,"Individual","1986-04-12",1),
+-> ("Lady","Gaga",666,"Primary","1990-03-21",1),
+-> ("Jay","Z",444,"Primary","1969-12-04",2),
+->("Warren","Buffet",411,"Individual","1976-05-14",1),
+->("Jeff","Bezos",999,"Primary","1996-10-11",1),
+->("Natalie","Portman",285,"Individual","1997-08-31",1),
+->("Robert","Kraft",326,"Individual","1996-07-25",1),
+->("Robert","Downey Jr",587,"Primary","1987-11-01",1),
+->("Arianna","Grande",505,"Primary","1990-03-25",2),
+->("Two","Pac",911,"Individual","1960-01-03",1));
