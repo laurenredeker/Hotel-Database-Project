@@ -1,3 +1,7 @@
+### first ###
+### install PyMySQL ###
+### configure Apache by locating & updating httpd.conf ###
+
 ### #!/usr/local/bin/python3    use the absolute path of python interpreter ###
 ### should be in the ScriptAlias for the cgi; on mac it's preset to /Library/WebServer/CGI-Executables/
 ### change script's permissions in terminal:  sudo chmod 755 customer_table.py ###
